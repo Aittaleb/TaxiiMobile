@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/winspl"
+    android:orientation="vertical">
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="403dp"
+        android:src="@drawable/splashing"
+        android:layout_centerVertical="true"/>
+
+    <ImageView
+        android:id="@+id/taxitapp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10px"
+        android:layout_marginLeft="30px"
+        android:layout_marginRight="30px"
+        android:layout_marginTop="30px"
+        android:src="@drawable/taxitapp1"
+        android:gravity="center"
+
+
+
+        />
+
+   <!-- <com.aittaleb.abdelhamid.taximobile.Typewriter
+        android:id="@+id/taxiMobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/TaxiMobile"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_marginRight="30px"
+        android:layout_marginLeft="30px"
+        android:layout_marginBottom="10px"
+        android:layout_marginTop="30px"
+        android:textAllCaps="false"
+        />
+-->
+    <ImageView
+
+        android:id="@+id/googlemaps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom = "true"
+        android:src="@drawable/googlemaps"
+        android:layout_marginBottom="30px"
+
+        />
+
+</RelativeLayout>

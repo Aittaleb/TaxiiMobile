@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backnoblur"
+    android:orientation="vertical"
+
+
+    android:weightSum="1">
+
+
+    <ImageView
+        android:id="@+id/taxitapp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:src="@drawable/taxitapp1"
+        android:layout_marginRight="30px"
+        android:layout_marginLeft="30px"
+        android:layout_marginBottom="10px"
+        android:layout_marginTop="30px"
+
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:src="@drawable/service24" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/SignIn"
+        android:textColor="#FFFF00"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+
+        />
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30px"
+        android:layout_marginLeft="30px"
+        android:textColorHighlight="@color/colorAccent"
+        android:textColorHint="#ffff00"
+
+
+        >
+        <EditText android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/emaillogo3"
+            android:drawablePadding="20dp"
+            android:textColor="#ffffff"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:inputType="textEmailAddress"
+            android:hint="@string/email"
+            android:textColorHint="#ffffff"
+
+            />
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30px"
+        android:layout_marginLeft="30px"
+        android:textColorHint="#ffff00"
+
+        >
+        <EditText android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/passwordlogo2"
+            android:drawablePadding="20dp"
+            android:textColor="#ffffff"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:inputType="textPassword"
+            android:hint="@string/password"
+
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <RadioGroup
+        android:id="@+id/group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkedButton="@+id/radio2"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/driver"
+            android:textColor="#ffff00"
+            android:textStyle="bold"
+
+            />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/client"
+            android:textColor="#ffff00"
+            android:textStyle="bold"
+
+            />
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/mega"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/autodetect"
+        android:textColor="#ffff00"
+        android:textStyle="bold"
+
+        />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/SignIn"
+        android:background="@drawable/btn_back_blue"
+        android:layout_marginRight="50px"
+        android:layout_marginLeft="50px"
+        android:layout_marginBottom="10px"
+        android:layout_marginTop="10px"
+        android:textStyle="bold"
+        android:onClick="login"
+
+        />
+
+    <Button
+        android:id="@+id/signUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/SignUp"
+        android:background="@drawable/btn_back"
+        android:layout_marginRight="50px"
+        android:layout_marginLeft="50px"
+        android:layout_marginBottom="10px"
+        android:layout_marginTop="10px"
+        android:textStyle="bold"
+
+        />
+
+
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="8dp">
+
+        <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle_button"
+            android:src="@drawable/ic_facebook"
+            android:tint="@android:color/holo_blue_dark"
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circle_button"
+            android:src="@drawable/ic_twitter"
+            android:padding="8dp"
+            android:tint="@android:color/holo_blue_bright"
+            android:layout_margin="8dp"
+            />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circle_button"
+            android:src="@drawable/ic_google_plus"
+            android:padding="8dp"
+            android:tint="@android:color/holo_red_light"
+            android:layout_margin="8dp"
+            />
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:onClick="PasswordForgotten"
+                android:text="@string/forgotpass"
+                android:textColor="@android:color/holo_red_dark"
+
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    android:background="@drawable/splashback"
+    >
+    <TextView
+        android:text="@string/SignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/Red"
+
+        android:textStyle="bold"
+        />
+    <View
+        android:layout_height="2dip"
+        android:background="#000000"
+        />
+    <TableLayout
+        android:stretchColumns="1"
+        android:layout_width="match_parent"
+        >
+        <TableRow>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left"
+                android:src="@drawable/avatarlogo"
+                />
+            <TableLayout
+                android:layout_width="match_parent"
+                android:stretchColumns="1"
+                >
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_column="0"
+                        android:text="@string/nom"
+                        android:textColor="#FFFF00"
+                        android:textStyle="bold"/>
+
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/namelayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dip"
+                        android:textColorHint="#ff0000"
+                        >
+                        <EditText android:id="@+id/PersonName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="textEmailAddress"
+                            android:hint="@string/donnerNom"
+                            android:drawableLeft="@drawable/personlogo"
+                            android:textColorHint="#FFFF00"
+                            android:textStyle="bold"
+                            android:textColor="#FF0000"
+                            />
+                    </android.support.design.widget.TextInputLayout>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:text="@string/donnnerEmail"
+                        android:layout_column="0"
+                        android:textColor="#FFFF00"
+                        android:textStyle="bold"/>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/emaillayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dip"
+                        android:layout_span="2"
+                        android:textColorHint="#ff0000"
+
+                        >
+
+                        <EditText
+                            android:id="@+id/PersonEmail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawableLeft="@drawable/emaillogo3"
+                            android:hint="@string/email"
+                            android:inputType="textEmailAddress"
+                            android:textColor="#FF0000"
+                            android:textColorHint="#FFFF00"
+                            android:textStyle="bold" />
+                    </android.support.design.widget.TextInputLayout>
+
+
+                </TableRow>
+            </TableLayout>
+        </TableRow>
+    </TableLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/passwordlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dip"
+        android:textColorHint="#ffff00"
+        >
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="@string/password"
+            android:drawableLeft="@drawable/password"
+            android:textColorHint="#FFFF00"
+            android:textStyle="bold"
+            android:textColor="#ff0000"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/passwordconfirmationlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dip"
+        android:layout_span="2"
+        android:textColorHint="#ffff00"
+
+        >
+        <EditText
+            android:id="@+id/passwordConfirmation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="@string/confirmationMotDePass"
+            android:drawableLeft="@drawable/passwordconf"
+            android:textColorHint="#FFFF00"
+            android:textStyle="bold"
+            android:textColor="#FF0000"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/phonelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dip"
+        android:layout_span="2"
+        android:textColorHint="#ffff00"
+
+        >
+        <EditText
+            android:id="@+id/Phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:hint="@string/phone"
+            android:drawableLeft="@drawable/phonelogo2"
+            android:textColorHint="#FFFF00"
+            android:textStyle="bold"
+            android:textColor="#FF0000"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <View
+        android:layout_height="2dip"
+        android:background="#000000"
+
+
+        />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+    <Button
+        android:id="@+id/signUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/SignUp"
+        android:background="@drawable/btn_back"
+        android:layout_marginRight="80px"
+        android:layout_marginLeft="80px"
+        android:layout_marginBottom="10px"
+        android:layout_marginTop="10px"
+        android:onClick="PostClick"
+        android:textColorHint="#FFFF00"
+        android:textStyle="bold"
+        android:layout_gravity="bottom"
+
+        />
+
+</LinearLayout>
+
+
+</TableLayout>
+

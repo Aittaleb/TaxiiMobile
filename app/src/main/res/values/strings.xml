@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name"> Taxi Mobile </string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="SignIn">Connnexion</string>
+    <string name="SignUp">Inscrire</string>
+    <string name="TaxiMobile">TaxiMobile</string>
+    <string name="connexion">Connexion</string>
+    <string name="passwordHint">*********</string>
+    <string name="driver">Conducteur</string>
+    <string name="client">client</string>
+    <string name="note">N.B</string>
+    <string name="autodetect">AutoDetection</string>
+    <string name="about">apropos de lapplication</string>
+    <string name="email">exemple@mail.com</string>
+    <string name="mapact">carte</string>
+    <string name="nom">Nom</string>
+    <string name="password">Mot de Pass</string>
+    <string name="forgotpass">oops, j\'ai oublié mon mot de pass</string>
+    <string name="locations">L O C A T I O N S</string>
+    <string name="commenter">Commentaire</string>
+    <string name="pickupadress">Adresse de depart </string>
+    <string name="acountsetting">Reglages de Compte</string>
+    <string name="orderdata">Historique des ordres</string>
+    <string name="myorders">Mes Ordres</string>
+    <string name="donnerNom">Donner Votre Nom ..</string>
+    <string name="prenom">Prenom </string>
+    <string name="donnerPrenom">Donner votre prenom .. </string>
+    <string name="donnnerEmail">Email </string>
+    <string name="donnerMotDePass">Votre mot de pass ici</string>
+    <string name="confirmationMotDePass">Confirmer votre mot de Pass</string>
+    <string name="cin">CIN</string>
+    <string name="cinhint">exemple : AA123456</string>
+    <string name="Residence">Votre residence</string>
+    <string name="ResidenceHint">Là ou vous habiter </string>
+    <string name="age">Age</string>
+    <string name="sexe">Sexe</string>
+    <string name="phone">Numéro de telephone</string>
+    <string name="masculin">Homme</string>
+    <string name="feminin">Femme</string>
+    <string name="mismatchedPass">mots de pass non identiques </string>
+    <string name="champsObligatoire">Ce champ ne doit pas etre vide</string>
+    <string name="emailInvalid"> email invalid</string>
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_login2">Sign in</string>
+    <string name="ratingapp">Classer notre application</string>
+    <string name="language">Language</string>
+    <string name="help">Aide</string>
+    <string name="legal">Details legal &amp; terms et conditions</string>
+    <string name="info">Informations</string>
+    <string name="logout">Deconnection</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">example@mail.com</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_registration">RegistrationActivity</string>
+    <string name="title_activity_drawermenu">drawermenu</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+</resources>

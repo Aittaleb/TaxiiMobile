@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mobile Taxi</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="SignIn">Sign In</string>
+    <string name="SignUp">Sign Up</string>
+    <string name="TaxiMobile">TaxiMobile</string>
+    <string name="connexion">Connexion</string>
+    <string name="password">Password</string>
+    <string name="passwordHint">**********</string>
+    <string name="driver">Driver</string>
+    <string name="client">client</string>
+    <string name="note">Note</string>
+    <string name="autodetect">AutoDetection</string>
+    <string name="about">About the application</string>
+    <string name="email">example@mail.com</string>
+    <string name="mapact">map</string>
+    <string name="nom">First Name</string>
+    <string name="donnerNom">Your Name ..</string>
+    <string name="donnnerEmail">Valid Email Adress</string>
+    <string name="donnerMotDePass">Pass word here</string>
+    <string name="confirmationMotDePass">Confirm yout password</string>
+    <string name="cin">ID</string>
+    <string name="cinhint">example : AA123456</string>
+    <string name="Residence">Your residence</string>
+    <string name="ResidenceHint">Where do you live </string>
+    <string name="age">Age</string>
+    <string name="sexe">Sexe</string>
+    <string name="phone">Phone Number</string>
+    <string name="forgotpass">oops, i forgot my password</string>
+    <string name="locations">L O C A T I O N S</string>
+    <string name="commenter">Comment</string>
+    <string name="pickupadress">Pick up adress </string>
+    <string name="acountsetting">Acount setting</string>
+    <string name="orderdata">Order Data</string>
+    <string name="myorders">My Orders</string>
+    <string name="ratingapp">Rating application</string>
+    <string name="language">Language</string>
+    <string name="help">Help</string>
+    <string name="legal">Legal details &amp; Terms and conditions</string>
+    <string name="info">Informations</string>
+    <string name="logout">Sign-out</string>
+
+
+    <string name="masculin">Male</string>
+    <string name="feminin">Female</string>
+
+    <string name="mismatchedPass">Passwords don\'t match</string>
+    <string name="champsObligatoire">field must not be empty</string>
+
+    <string name="emailInvalid">Invalid email</string>
+
+
+</resources>
